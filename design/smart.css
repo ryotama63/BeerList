@@ -7,10 +7,6 @@ body{
 :root {
   --background-navbar: rgba(55, 55, 55, 0.98);
 }
-.img {
-	width: 40%;
-	padding: 5px 10px;
-}
 .inner{
   max-width: 800px;
   width: 100%;
@@ -101,6 +97,7 @@ body{
   font-size: 40px;
 }
 .visual{
+  padding: 5px 10px;
   width: 350px;
 }
 .is-active {
