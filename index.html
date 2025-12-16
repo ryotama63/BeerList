@@ -1,238 +1,50 @@
-<!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-JP">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 
 <!-- アノテーション -->
-<title>謎解き一覧</title>
+<title>りょうたまハウス謎解きコンテンツ</title>
 
 <!-- 共通css include -->
 <!-- block=common__css (d) -->
-<link rel="stylesheet" href="./design/design.css" type="text/css" media="all">
+<link rel="stylesheet" href="../design/smart.css" type="text/css" media="all">
+<script src="../design/smart.js"></script>
 </head>
-<body class="race" id="Netkeiba_Race_Result">
+<body>
+<header class="header">
+  <div class="navtext-container">
+    <div class="navtext">コンテンツ一覧</div>
+  </div>
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li class="top"><a>コンテンツ一覧</a></li>
+      <li><a href="./Itemnazo.html">　アイテム謎</a></li>
+      <li><a href="./Itemnazo2.html">　アイテム謎2</a></li>
+      <li><a href="./Itemnazo3.html">　アイテム謎3</a></li>
+      <li><a href="./RyotamaHouseEscape.html">　りょうたまハウスからの脱出</a></li>
+      <li><a href="./RyotamaHouseCharange.html">　りょうたまからの挑戦状</a></li>
+      <li><a href="./DialLockRoom.html">　DialLockRoom</a></li>
+      <li><a href="./fRAme.html">　fЯAme</a></li>
+      <li><a href="./PresentForYou.html">　PRESENT FOR YOU</a></li>
+      <li><a href="./tamazon.html">　tamazon採用試験</a></li>
+      <li><a href="./USA.html">　UNKO SCORE ATTACK</a></li>
+    </ul>
 
-<div class="RaceColumn01">
-<div class="RaceColumnWrap fc">
-<div class="RaceMainColumn">
+</header>
+<main>
+  <div class="boxes inner">
+    <div class="box"><a href="./Itemnazo.html"><img class="visual" src="../image/アイテム謎ビジュアル.png"></a></div>
+    <div class="box"><a href="./Itemnazo2.html"><img class="visual" src="../image/アイテム謎2ビジュアル.png"></a></div>
+    <div class="box"><a href="./Itemnazo3.html"><img class="visual" src="../image/アイテム謎3ビジュアル.png"></a></div>
+    <div class="box"><a href="./RyotamaHouseEscape.html"><img class="visual" src="../image/りょうたまハウスからの脱出ビジュアル.png"></a></div>
+    <div class="box"><a href="./RyotamaHouseCharange.html"><img class="visual" src="../image/挑戦状ビジュアル.png"></a></div>
+    <div class="box"><a href="./DialLockRoom.html"><img class="visual" src="../image/DialLockRoomビジュアル.png"></a></div>
+    <div class="box"><a href="./fRAme.html"><img class="visual" src="../image/frameビジュアル.png"></a></div>
+    <div class="box"><a href="./PresentForYou.html"><img class="visual" src="../image/PresentForYou_ビジュアル.png"></a></div>
+    <div class="box"><a href="./tamazon.html"><img class="visual" src="../image/tamazonビジュアル.png"></a></div>
+    <div class="box"><a href="./USA.html"><img class="visual" src="../image/USAビジュアル.png"></a></div>
+    <div class="box move-page is-active"></div>
+  </div>
+</main>
 
-<!-- block=shutuba__race_kaisai_wrap (cp) -->
-<!-- block=shutuba__race_main_column (cp) -->
-<div class="RaceList_NameBox">
-<div class="RaceList_Item02" Align="left">
-<div class="RaceName">謎解き一覧</div>
-</div><!-- /.RaceList_Item02 -->
-</div><!-- /.RaceList_NameBox -->
-
-<div class="RaceSideColumn">
-
-<!-- block=common__advertisement (d) -->
-<div class="nk_AdvBox_pc new_race_rectangle race_result  ">
-<div id="new_race_rectangle"></div>
-</div>
-</div>
-</div><!-- /.RaceColumnWrap -->
-</div><!-- /.RaceColumn01 -->
-<div class="RaceColumn02">
-
-
-<!-- block=table -->
-<div id="tab_ResultSelect_1_con">
-<div class="ResultTableWrap">
-<table summary="全着順" class="RaceTable01 RaceCommon_Table ResultRefund Table_Show_All"
-id="All_Result_Table">
-<thead>
-<tr class="Header">
-<th>
-<div class="Name">作品名</div>
-</th>
-<th>形式</th>
-<th>プレイ<br>人数</th>
-<th>所要<br>時間</th>
-<th>難易度<br>1～10</th>
-</tr>
-</thead>
-
-  
-  
-<tbody>
-<tr  class="FirstDisplay HorseList" class="HorseList">
-<td class="">
-<span class="Name">アイテム謎</span>
-</td>
-<td class="Type Txt_C">
-<span class="">テーブル</span>
-</td>
-<td class="Player Txt_C">
-<span  class="">1人</span>
-</td>
-<td class="Time Txt_C">
-<span  class="">20分</span>
-</td>
-<td class="Difficulty Txt_C">
-<span  class="">4</span>
-</td>
-</td>
-</tr>
-
-<tr  class="FirstDisplay HorseList" class="HorseList">
-<td class="">
-<span class="Name">アイテム謎２</span>
-</td>
-<td class="Type Txt_C">
-<span class="">テーブル</span>
-</td>
-<td class="Player Txt_C">
-<span  class="">1人</span>
-</td>
-<td class="Time Txt_C">
-<span  class="">20分</span>
-</td>
-<td class="Difficulty Txt_C">
-<span  class="">6</span>
-</td>
-</td>
-</tr>
-
-<tr  class="FirstDisplay HorseList" class="HorseList">
-<td class="">
-<span class="Name">アイテム謎３</span>
-</td>
-<td class="Type Txt_C">
-<span class="">テーブル</span>
-</td>
-<td class="Player Txt_C">
-<span  class="">1人</span>
-</td>
-<td class="Time Txt_C">
-<span  class="">20分</span>
-</td>
-<td class="Difficulty Txt_C">
-<span  class="">7</span>
-</td>
-</td>
-</tr>
-
-<tr  class="FirstDisplay HorseList" class="HorseList">
-<td class="">
-<span class="Name">りょうたまハウス<br>からの脱出</span>
-</td>
-<td class="Type Txt_C">
-<span class="">ハウス</span>
-</td>
-<td class="Player Txt_C">
-<span  class="">1～2人</span>
-</td>
-<td class="Time Txt_C">
-<span  class="">40分</span>
-</td>
-<td class="Difficulty Txt_C">
-<span  class="">8</span>
-</td>
-</td>
-</tr>
-
-<tr  class="FirstDisplay HorseList" class="HorseList">
-<td class="">
-<span class="Name">りょうたまからの<br>挑戦状</span>
-</td>
-<td class="Type Txt_C">
-<span class="">テーブル</span>
-</td>
-<td class="Player Txt_C">
-<span  class="">1～2人</span>
-</td>
-<td class="Time Txt_C">
-<span  class="">40分</span>
-</td>
-<td class="Difficulty Txt_C">
-<span  class="">6</span>
-</td>
-</td>
-</tr>
-
-<tr  class="FirstDisplay HorseList" class="HorseList">
-<td class="">
-<span class="Name">Dial Lock Room</span>
-</td>
-<td class="Type Txt_C">
-<span class="">ルーム</span>
-</td>
-<td class="Player Txt_C">
-<span  class="">1人</span>
-</td>
-<td class="Time Txt_C">
-<span  class="">20分</span>
-</td>
-<td class="Difficulty Txt_C">
-<span  class="">5</span>
-</td>
-</td>
-</tr>
-
-<tr  class="FirstDisplay HorseList" class="HorseList">
-<td class="">
-<span class="Name">fЯAme</span>
-</td>
-<td class="Type Txt_C">
-<span class="">？？？</span>
-</td>
-<td class="Player Txt_C">
-<span  class="">2人</span>
-</td>
-<td class="Time Txt_C">
-<span  class="">30分</span>
-</td>
-<td class="Difficulty Txt_C">
-<span  class="">7</span>
-</td>
-</td>
-</tr>
-
-<tr  class="FirstDisplay HorseList" class="HorseList">
-<td class="">
-<span class="Name">コミュニケーション</span>
-</td>
-<td class="Type Txt_C">
-<span class="">LINE</span>
-</td>
-<td class="Player Txt_C">
-<span  class="">2人</span>
-</td>
-<td class="Time Txt_C">
-<span  class="">15分</span>
-</td>
-<td class="Difficulty Txt_C">
-<span  class="">4</span>
-</td>
-</td>
-</tr>
-
-<tr  class="FirstDisplay HorseList" class="HorseList">
-<td class="">
-<span class="Name">一枚謎塔</span>
-</td>
-<td class="Type Txt_C">
-<span class="">LINE</span>
-</td>
-<td class="Player Txt_C">
-<span  class="">1人</span>
-</td>
-<td class="Time Txt_C">
-<span  class="">40分</span>
-</td>
-<td class="Difficulty Txt_C">
-<span  class="">5</span>
-</td>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-</div>
-</div><!-- / .RaceColumn02 -->
-</div><!-- /.Wrap -->
 </body>
-</html>
